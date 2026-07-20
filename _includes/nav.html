@@ -1,0 +1,15 @@
+<header class="site-header">
+  <nav class="nav container">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">Hannah Stewart</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="{{ '/strategic-work' | relative_url }}" {% if page.url contains 'strategic-work' %}class="active"{% endif %}>Strategic Work</a></li>
+      <li><a href="{{ '/writing' | relative_url }}" {% if page.url contains 'writing' %}class="active"{% endif %}>Writing</a></li>
+      <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a></li>
+    </ul>
+  </nav>
+</header>

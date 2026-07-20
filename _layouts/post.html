@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.hero_image %}
+    <div class="post-hero">
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    <div class="container">
+      <a href="{{ page.collection | prepend: '/' | relative_url }}" class="back-link">&larr; Back to {{ page.back_label | default: page.collection | replace: '-', ' ' | capitalize }}</a>
+      {% if page.client %}
+      <span class="post-client">{{ page.client }}</span>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="container post-body">
+    {{ content }}
+  </div>
+</article>

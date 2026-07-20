@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<article class="case-study">
+  {% if page.hero_image %}
+  <div class="page-hero">
+    <img src="{{ page.hero_image | relative_url }}" alt="">
+  </div>
+  {% endif %}
+
+  <div class="container cs-header">
+    <a href="{{ '/strategic-work' | relative_url }}" class="back-link">&larr; Back to Strategic Work</a>
+    {% if page.client %}
+    <span class="post-client">{{ page.client }}</span>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="cs-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="container cs-body">
+    {% if page.challenge_image %}
+    <section class="cs-section">
+      <div class="cs-section-content">
+        <h2>Challenge</h2>
+        {{ page.challenge | markdownify }}
+      </div>
+      <div class="cs-section-image">
+        <img src="{{ page.challenge_image | relative_url }}" alt="Challenge illustration">
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.approach_image %}
+    <section class="cs-section cs-section--reverse">
+      <div class="cs-section-content">
+        <h2>Approach</h2>
+        {{ page.approach | markdownify }}
+      </div>
+      <div class="cs-section-image">
+        <img src="{{ page.approach_image | relative_url }}" alt="Approach illustration">
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.impact_image %}
+    <section class="cs-section">
+      <div class="cs-section-content">
+        <h2>Impact</h2>
+        {{ page.impact | markdownify }}
+      </div>
+      <div class="cs-section-image">
+        <img src="{{ page.impact_image | relative_url }}" alt="Impact illustration">
+      </div>
+    </section>
+    {% endif %}
+  </div>
+</article>

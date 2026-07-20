@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="48" fill="#f0e5d6"/>
+  <circle cx="24" cy="24" r="6" fill="#d09a6e"/>
+  <circle cx="44" cy="24" r="6" fill="#d09a6e" opacity="0.6"/>
+  <circle cx="64" cy="24" r="6" fill="#d09a6e" opacity="0.3"/>
+  <!-- Tree diagram -->
+  <rect x="500" y="80" width="200" height="50" rx="8" fill="#a8512b" opacity="0.15"/>
+  <line x1="600" y1="130" x2="600" y2="170" stroke="#d09a6e" stroke-width="2"/>
+  <line x1="300" y1="170" x2="900" y2="170" stroke="#d09a6e" stroke-width="2"/>
+  <line x1="300" y1="170" x2="300" y2="200" stroke="#d09a6e" stroke-width="2"/>
+  <line x1="600" y1="170" x2="600" y2="200" stroke="#d09a6e" stroke-width="2"/>
+  <line x1="900" y1="170" x2="900" y2="200" stroke="#d09a6e" stroke-width="2"/>
+  <rect x="210" y="200" width="180" height="40" rx="6" fill="#d09a6e" opacity="0.15"/>
+  <rect x="510" y="200" width="180" height="40" rx="6" fill="#d09a6e" opacity="0.15"/>
+  <rect x="810" y="200" width="180" height="40" rx="6" fill="#d09a6e" opacity="0.15"/>
+  <line x1="300" y1="240" x2="300" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <line x1="200" y1="270" x2="400" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <rect x="140" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <rect x="280" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <line x1="600" y1="240" x2="600" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <line x1="500" y1="270" x2="700" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <rect x="440" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <rect x="580" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <line x1="900" y1="240" x2="900" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <line x1="800" y1="270" x2="1000" y2="270" stroke="#d09a6e" stroke-width="1.5"/>
+  <rect x="740" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <rect x="880" y="280" width="120" height="32" rx="5" fill="#f0e5d6"/>
+  <!-- Bottom content area -->
+  <rect x="80" y="360" width="1040" height="280" rx="10" fill="#f9f5ef"/>
+  <rect x="120" y="390" width="250" height="14" rx="3" fill="#a8512b" opacity="0.12"/>
+  <rect x="120" y="420" width="960" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="120" y="440" width="920" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="120" y="460" width="940" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="120" y="500" width="460" height="120" rx="8" fill="#d09a6e" opacity="0.1"/>
+  <rect x="620" y="500" width="460" height="120" rx="8" fill="#d09a6e" opacity="0.1"/>
+</svg>

@@ -1,0 +1,30 @@
+title: Hannah Stewart
+description: Content designer — strategic content design and writing
+url: ""
+baseurl: ""
+
+collections:
+  case-studies:
+    output: true
+    permalink: /strategic-work/:slug/
+  writing:
+    output: true
+    permalink: /writing/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "case-studies"
+    values:
+      layout: case-study
+  - scope:
+      path: ""
+      type: "writing"
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - palette-preview.html
+  - README.md

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Strategic Work
+---
+<div class="page-hero">
+  <img src="{{ '/assets/images/hero-strategic-work.svg' | relative_url }}" alt="">
+</div>
+
+<div class="page-header container">
+  <h1>Strategic Work</h1>
+  <p>Case studies from content strategy, information architecture, and design projects.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="card-grid">
+      {% for study in site.case-studies %}
+      <a href="{{ study.url | relative_url }}" class="card">
+        {% if study.thumbnail %}
+        <img src="{{ study.thumbnail | relative_url }}" alt="{{ study.title }}" class="card-image">
+        {% endif %}
+        {% if study.client %}
+        <span class="card-client">{{ study.client }}</span>
+        {% endif %}
+        <h3>{{ study.title }}</h3>
+        <p>{{ study.description }}</p>
+        {% if study.tags %}
+        <div class="card-tags">
+          {% for tag in study.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

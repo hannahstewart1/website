@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="48" fill="#f0e5d6"/>
+  <circle cx="24" cy="24" r="6" fill="#d09a6e"/>
+  <circle cx="44" cy="24" r="6" fill="#d09a6e" opacity="0.6"/>
+  <circle cx="64" cy="24" r="6" fill="#d09a6e" opacity="0.3"/>
+  <!-- Voice spectrum -->
+  <rect x="80" y="80" width="1040" height="100" rx="10" fill="#f9f5ef"/>
+  <rect x="120" y="100" width="200" height="16" rx="4" fill="#a8512b" opacity="0.2"/>
+  <rect x="120" y="130" width="960" height="24" rx="12" fill="#f0e5d6"/>
+  <rect x="120" y="130" width="600" height="24" rx="12" fill="#d09a6e" opacity="0.3"/>
+  <circle cx="720" cy="142" r="10" fill="#a8512b" opacity="0.6"/>
+  <!-- Voice principles cards -->
+  <rect x="80" y="210" width="240" height="200" rx="10" fill="#f9f5ef"/>
+  <rect x="345" y="210" width="240" height="200" rx="10" fill="#f9f5ef"/>
+  <rect x="610" y="210" width="240" height="200" rx="10" fill="#f9f5ef"/>
+  <rect x="875" y="210" width="240" height="200" rx="10" fill="#f9f5ef"/>
+  <circle cx="200" cy="270" r="30" fill="#a8512b" opacity="0.1"/>
+  <circle cx="465" cy="270" r="30" fill="#d09a6e" opacity="0.15"/>
+  <circle cx="730" cy="270" r="30" fill="#a8512b" opacity="0.1"/>
+  <circle cx="995" cy="270" r="30" fill="#d09a6e" opacity="0.15"/>
+  <rect x="120" y="320" width="160" height="10" rx="3" fill="#302520" opacity="0.08"/>
+  <rect x="120" y="340" width="140" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="120" y="356" width="150" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="385" y="320" width="160" height="10" rx="3" fill="#302520" opacity="0.08"/>
+  <rect x="385" y="340" width="140" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="385" y="356" width="150" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="650" y="320" width="160" height="10" rx="3" fill="#302520" opacity="0.08"/>
+  <rect x="650" y="340" width="140" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="650" y="356" width="150" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="915" y="320" width="160" height="10" rx="3" fill="#302520" opacity="0.08"/>
+  <rect x="915" y="340" width="140" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <rect x="915" y="356" width="150" height="8" rx="2" fill="#302520" opacity="0.05"/>
+  <!-- Dos and don'ts -->
+  <rect x="80" y="440" width="510" height="200" rx="10" fill="#f9f5ef"/>
+  <rect x="610" y="440" width="510" height="200" rx="10" fill="#f9f5ef"/>
+  <rect x="120" y="470" width="80" height="20" rx="4" fill="#6b8f71" opacity="0.3"/>
+  <rect x="650" y="470" width="80" height="20" rx="4" fill="#a8512b" opacity="0.2"/>
+  <rect x="120" y="510" width="430" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="120" y="530" width="400" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="120" y="550" width="410" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="650" y="510" width="430" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="650" y="530" width="400" height="8" rx="2" fill="#302520" opacity="0.06"/>
+  <rect x="650" y="550" width="410" height="8" rx="2" fill="#302520" opacity="0.06"/>
+</svg>

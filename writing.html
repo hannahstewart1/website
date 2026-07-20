@@ -1,0 +1,35 @@
+---
+layout: default
+title: Writing
+---
+<div class="page-hero">
+  <img src="{{ '/assets/images/hero-writing.svg' | relative_url }}" alt="">
+</div>
+
+<div class="page-header container">
+  <h1>Writing</h1>
+  <p>Articles, guides, and thinking on content design, strategy, and the craft of clear communication.</p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="card-grid">
+      {% for article in site.writing %}
+      <a href="{{ article.url | relative_url }}" class="card">
+        {% if article.thumbnail %}
+        <img src="{{ article.thumbnail | relative_url }}" alt="{{ article.title }}" class="card-image">
+        {% endif %}
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.description }}</p>
+        {% if article.tags %}
+        <div class="card-tags">
+          {% for tag in article.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
